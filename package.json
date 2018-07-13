@@ -1,19 +1,19 @@
 {
-  "name": "dc-hkb-pc",
+  "name": "mint-ui-starter",
   "version": "1.0.0",
-  "description": "dc-hkb-pc",
+  "description": "mint-ui-starter",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
     "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
-  "author": "kaisagroup",
+  "author": "yangym",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "font-awesome": "^4.7.0",
     "mint-ui": "^2.2.13",
     "vue": "^2.5.16",
-    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0"
